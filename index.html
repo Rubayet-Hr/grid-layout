@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!--CSS links-->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+
+	<title>Grid layout</title>
+</head>
+<body>
+	<h1>Grid</h1>
+	<section>
+    <div class="container">
+          <div class="row">
+            <div class="col-sm">
+            <div class="box-1">
+            One of three columns
+            </div>
+            </div>
+            <div class="col-sm">
+            <div class="box-2">
+            One of three columns
+            </div>
+            </div>
+            <div class="col-sm">
+            <div class="box-3">
+            One of three columns
+            </div>
+            </div>
+          </div>
+    </div>
+    </section>
+
+    <section>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                  <div class="box-1">
+                  1 of 2
+                  </div>
+            </div>
+            <div class="col">
+                  <div class="box-2">
+                  2 of 2
+                  </div>
+            </div>
+        </div>
+        <div class="row">
+              <div class="col">
+                  <div class="box-3">
+                   1 of 3
+                  </div>
+              </div>
+              <div class="col">
+                  <div class="box-4">
+                  2 of 3
+                  </div>
+              </div>
+              <div class="col">
+                   <div class="box-5">
+                   3 of 3
+                  </div>
+              </div>
+        </div>
+    </div>
+  </section>
+    <section>
+    <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="box-2">
+            1 of 3
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="box-3">
+            2 of 3 (wider)
+            </div>
+          </div>
+          <div class="col">
+              <div class="box-4">
+              3 of 3
+              </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="box-5">
+            1 of 3
+            </div>
+          </div>
+          <div class="col-5">
+            <div class="box-6">
+            2 of 3 (wider)
+            </div>
+          </div>
+          <div class="col">
+              <div class="box-7">
+              3 of 3
+              </div>
+          </div>
+        </div>
+    </div>
+  </section>
+    <section>
+    <div class="container">
+  <div class="row justify-content-md-center">
+    <div class="col col-lg-2">
+      <div class="box-1">
+      1 of 3
+    </div>
+    </div>
+    <div class="col-md-auto">
+      <div class="box-2">
+      Variable width content
+    </div>
+    </div>
+    <div class="col col-lg-2">
+      <div class="box-3">
+      3 of 3
+    </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      <div class="box-4">
+      1 of 3
+    </div>
+    </div>
+    <div class="col-md-auto">
+      <div class="box-5">
+      Variable width content
+    </div>
+    </div>
+    <div class="col col-lg-2">
+      <div class="box-6">
+      3 of 3
+    </div>
+    </div>
+  </div>
+</div>
+  </section>
+   <section>
+    <div class="container">
+    <div class="row">
+    <div class="col">
+         <div class="box-2">
+          col
+        </div>
+      </div>
+    <div class="col">
+       <div class="box-1">
+        col
+      </div>
+       </div>
+    <div class="col">
+         <div class="box-3">
+          col
+          </div>
+    </div>
+    <div class="col">
+         <div class="box-3">
+          col
+        </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-8">
+         <div class="box-2">
+          col-8
+        </div>
+  </div>
+    <div class="col-4">
+         <div class="box-1">
+          col-4
+        </div>
+        </div>
+  </div>
+  </div>
+  </section>
+
+   <section>
+    <div class="container">
+  <div class="row">
+    <div class="col-sm-8">
+      <div class="box-4">
+      col-sm-8
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="box-5">
+      col-sm-4
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm">
+      <div class="box-6">
+      col-sm
+      </div>
+    </div>
+    <div class="col-sm">
+      <div class="box-7">
+      col-sm
+      </div>
+    </div>
+    <div class="col-sm">
+      <div class="box-8">
+      col-sm
+      </div>
+    </div>
+  </div>
+   </div>
+  </section>
+
+  <section>
+    <div class="container">
+  <!-- Stack the columns on mobile by making one full-width and the other half-width -->
+  <div class="row">
+    <div class="col-md-8">
+      <div class="box-1">
+        .col-md-8
+        </div>
+      </div>
+    <div class="col-6 col-md-4">
+    <div class="box-2">
+      .col-6 .col-md-4
+    </div>
+    </div>
+  </div>
+
+  <!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop -->
+  <div class="row">
+    <div class="col-6 col-md-4">
+      <div class="box-3">
+    .col-6 .col-md-4
+    </div>
+    </div>
+    <div class="col-6 col-md-4">
+      <div class="box-4">
+    .col-6 .col-md-4
+    </div>
+    </div>
+    <div class="col-6 col-md-4">
+      <div class="box-5">
+    .col-6 .col-md-4
+  </div>
+    </div>
+  </div>
+
+  <!-- Columns are always 50% wide, on mobile and desktop -->
+  <div class="row">
+    <div class="col-6">
+      <div class="box-6">
+    .col-6
+    </div>
+    </div>
+    <div class="col-6">
+      <div class="box-7">
+    .col-6
+  </div>
+  </div>
+  </div>
+</div>
+  </section>
+
+    <section>
+    <div class="container px-lg-5">
+  <div class="row mx-lg-n5">
+    <div class="col py-3 px-lg-5 border bg-light">
+      <div class="box-9">
+    Custom column padding
+    </div>
+  </div>
+    <div class="col py-3 px-lg-5 border bg-light">
+      <div class="box-10">
+    Custom column padding
+  </div>
+</div>
+  </div>
+</div>
+  </section>
+
+  <section> <br>
+    <div class="container">
+  <div class="row row-cols-2">
+    <div class="col">
+     <div class="box-1"> 
+    Column</div>
+    </div>
+    <div class="col">
+      <div class="box-2">
+    Column</div>
+    </div>
+    <div class="col">
+      <div class="box-3">
+    Column</div>
+  </div>
+    <div class="col">
+      <div class="box-4">
+    Column</div>
+  </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row row-cols-3">
+    <div class="col">
+     <div class="box-1"> 
+    Column</div>
+  </div>
+    <div class="col">
+      <div class="box-2">
+    Column</div>
+  </div>
+    <div class="col">
+      <div class="box-3">
+    Column</div>
+  </div>
+    <div class="col">
+      <div class="box-4">
+    Column</div>
+  </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row row-cols-4">
+    <div class="col">
+      <div class="box-5">
+    Column</div>
+  </div>
+    <div class="col">
+      <div class="box-6">
+    Column</div>
+    </div>
+    <div class="col">
+    <div class="box-3">
+    Column</div>
+    </div>
+    <div class="col">
+      <div class="box-4">
+    Column</div>
+  </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row row-cols-4">
+    <div class="col">
+      <div class="box-5">
+    Column</div>
+  </div>
+    <div class="col">
+      <div class="box-6">
+    Column</div>
+  </div>
+    <div class="col-6">
+      <div class="box-7">
+    Column</div>
+    </div>
+    <div class="col">
+      <div class="box-8">
+    Column</div>
+  </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
+    <div class="col">
+      <div class="box-1">
+    Column</div>
+  </div>
+    <div class="col">
+      <div class="box-2">
+    Column</div>
+  </div>
+    <div class="col">
+      <div class="box-3">
+    Column</div>
+  </div>
+    <div class="col">
+      <div class="box-4">
+    Column</div>
+  </div>
+  </div>
+</div>
+  </section>
+
+   <section>
+    <div class="container">
+  <div class="row align-start">
+    <div class="col">
+      <div class="box-5">
+      One of three columns
+    </div>
+  </div>
+    <div class="col">
+      <div class="box-6">
+      One of three columns
+    </div>
+  </div>
+    <div class="col">
+      <div class="box-7">
+      One of three columns
+    </div>
+  </div>
+  </div>
+  <div class="row align-center">
+    <div class="col">
+      <div class="box-8">
+      One of three columns
+    </div>
+  </div>
+    <div class="col">
+      <div class="box-4">
+      One of three columns
+    </div>
+  </div>
+    <div class="col">
+      <div class="box-3">
+      One of three columns
+    </div>
+  </div>
+  </div>
+  <div class="row align-end">
+    <div class="col">
+      <div class="box-2">
+      One of three columns
+    </div>
+  </div>
+    <div class="col">
+      <div class="box-1">
+      One of three columns
+    </div>
+  </div>
+    <div class="col">
+      <div class="box-8">
+      One of three columns
+    </div>
+  </div>
+</div>
+  </section>
+
+
+
+
+</body>
+</html>
